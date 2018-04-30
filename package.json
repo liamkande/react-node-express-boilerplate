@@ -1,0 +1,34 @@
+{
+  "name": "react-node-express-boilerplate",
+  "version": "1.0.0",
+  "description": "boilerplate for using create-react-app with a Node Express Backend",
+  "author": {
+    "name": "LIam Ansoumane Kande",
+    "email": "lkande@phillips.com",
+    "url": "liamkande.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}
