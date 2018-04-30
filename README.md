@@ -34,8 +34,15 @@ The key to use an Express backend with a project created with `create-react-app`
 
 This tells Webpack development server to proxy our API requests to our API server, given that our Express server is running on **localhost:5000**
 
+test Sample code
+
+## Test server response
+
+To test server response got to
+```
+"http://localhost:5000/api/hello"
+```
+
 ## Tutorial
 
 Read [Medium Article](https://medium.freecodecamp.org/how-to-make-create-react-app-work-with-a-node-backend-api-7c5c48acb1b0) entry for a detailed step-by-step guide.
-
-
