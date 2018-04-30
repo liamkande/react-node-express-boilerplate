@@ -21,10 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
+    "url": "https://github.com/liamkande/react-node-express-boilerplate"
   },
   "keywords": [
     "node",
